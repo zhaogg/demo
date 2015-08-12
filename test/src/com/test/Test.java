@@ -9,6 +9,7 @@ public class Test {
 	  Matcher matcher = pattern.matcher("ASDADFASDsa");
 	  boolean b= matcher.matches();
 	  System.out.println(b);
+	  System.out.println(b);
 
 }
 }
