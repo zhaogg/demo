@@ -66,6 +66,7 @@ public class Data extends HttpServlet {
 		response.setContentType("text/html");
 		response.setCharacterEncoding("utf-8");
 		String path=request.getRealPath("/");
+		
 		String json =FileUtils.readFileToString(new File(path,"griddata.json"));
 		PrintWriter out = response.getWriter();
 		out.println(json);
